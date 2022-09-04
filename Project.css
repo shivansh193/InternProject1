@@ -1,0 +1,164 @@
+body{
+    background-color: #fff;
+}
+
+#title{
+    background-color: #ff4c68;
+    height: 65rem;
+
+}
+
+h1{
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: bold;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 100px);
+ }
+ .box1 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+ }
+ .box{
+    color: grey;
+ }
+.row{
+    padding-top: 4.5rem;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+}
+.nav-item{
+    padding: 0px 20px;
+}
+.nav-link{
+    font-family: "Montserrat-light";
+    font-weight: lighter;
+}
+.rotate{
+    transform: rotate(25deg);
+    padding: 3.5rem;
+    position: relative;
+    right: 80px;
+    bottom: 170px;
+}
+.btn1:hover{
+    background-color: #000;
+    color: #fff;
+}
+.btn2:hover{
+    background-color: #fff;
+    color: #000;
+}
+#features{
+    font-size: 1.25rem;
+    padding: 75px;
+    margin: auto;
+    padding: 3rem;
+}
+#testimonials{
+
+}
+.icono:hover{
+    color: #ff4c68;
+}
+#features{
+    background-color: #fff;
+    text-align: center;
+}
+#cta {
+    background-color: #ff4c68;
+}
+#footer{
+    background-color: #ff4c68;
+}
+.icono{
+    float: bottom;
+    display: block;
+    margin: auto;
+    padding: auto;
+    position: relative;
+    size: 10rem;
+}
+.icono1{
+    padding-top: 3rem;
+}
+#features{
+    background-color: #fff;
+    padding: 10rem;
+    position: relative;
+    z-index: 1;
+ 
+}
+#testimonials{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 3rem;
+    
+}
+h2{
+    font-size: 3rem;
+    font-family: "Montserrat-bold";
+    
+}
+
+.card{
+    padding: 2rem;
+    margin: auto;
+}
+
+body{
+    height: 100%;
+    margin:0;
+}
+#wrapper {
+    max-width: 940px;
+    margin: 0 auto;
+    padding: 0 5%;
+    clear: both;
+  }
+
+
+html{
+    margin:0;
+}
+@media(max-width:1028px){
+    .rotate{
+        position: static;
+        transform: rotate(0);
+    }
+}
+#footer{
+    text-align: center;
+    color: grey;
+    background-color: #fff;
+}
+
+
+@media(max-width:1028px){
+    #cta{
+        width:50;
+        font-size: 10px;
+    }
+    .btnn1{
+        position:relative;
+        top: 60px;
+    }
+}
+@media(max-width:560px){
+    .btnn1{
+        size: 15px;
+    }
+    .ctaa{
+        font-size: 30px;
+    }
+}
